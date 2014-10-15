@@ -1,0 +1,13 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+
+    ## uncomment for the sample
+    # footer_left: "Phoenix Empire, Earning by sharing"
+    # footer_center: "find us: www.inspishop.com"
+    # footer_right: "join us: contact@inspishop.com"
+    # header_title: "PDF Generator"
+    pdf_content: "PUT YOUR CONTENT HERE"
+

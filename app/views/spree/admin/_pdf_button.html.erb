@@ -1,0 +1,4 @@
+<% if try_spree_current_user.try(:has_spree_role?, "admin")  %>
+  <% button = Spree::PdfGenerator::Config[:pdf_buttons] %>
+  <%= link_to("PDF", spree.admin_path(spree_current_user, :pdf , :template => button), :class => "button fa fa-print", :target => "_blank") %>
+<% end %>
